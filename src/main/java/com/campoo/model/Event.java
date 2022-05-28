@@ -20,7 +20,7 @@ public class Event {
     @GeneratedValue
     private Long id;
     @ManyToOne
-    @JoinColumn(name = "user_")
+    @JoinColumn(name = "owner_")
     private User owner;
     private String name;
     @ManyToOne
