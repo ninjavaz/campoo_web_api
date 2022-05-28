@@ -1,3 +1,10 @@
-D:\Desktop\campoo_web\events\src\main\java\com\campoo\EventsApplication.java
-D:\Desktop\campoo_web\events\src\main\java\com\campoo\controller\EventsController.java
-D:\Desktop\campoo_web\events\src\main\java\com\campoo\model\Event.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\service\EventService.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\UserRepository.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\LocationRepository.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\Event.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\controller\EventsController.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\EventType.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\User.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\EventsApplication.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\Location.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\EventRepository.java

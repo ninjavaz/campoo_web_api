@@ -19,7 +19,6 @@ import java.util.Date;
 @Entity(name="user_own")
 public class User {
     @Id
-    @GeneratedValue
     private Long id;
     private String name;
     private String username;

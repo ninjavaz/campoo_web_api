@@ -1,6 +1,13 @@
-com\campoo\model\EventRepository.class
 com\campoo\controller\EventsController.class
+com\campoo\model\UserRepository.class
 com\campoo\model\Event.class
+com\campoo\model\User.class
 com\campoo\model\Event$EventBuilder.class
-com\campoo\service\EventService.class
 com\campoo\EventsApplication.class
+com\campoo\model\EventType.class
+com\campoo\model\EventRepository.class
+com\campoo\model\LocationRepository.class
+com\campoo\model\User$UserBuilder.class
+com\campoo\model\Location$LocationBuilder.class
+com\campoo\model\Location.class
+com\campoo\service\EventService.class

@@ -21,7 +21,9 @@ public class EventsController {
 
     @Autowired
     private EventService eventService;
+    @Autowired
     private EventRepository eventRepo;
+    @Autowired
     private UserRepository userRepo;
 
     @RequestMapping(value="/", method = RequestMethod.GET)
@@ -38,7 +40,7 @@ public class EventsController {
     public @ResponseBody List<Event> getAllEvents() {
         return eventRepo.findAll();
     }
-    
+
     @RequestMapping(value="/user/all", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody List<User> getAllUsers() {
         return userRepo.findAll();
