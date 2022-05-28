@@ -5,10 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 
@@ -22,11 +19,15 @@ public class Event {
     @Id
     @GeneratedValue
     private Long id;
+    @ManyToOne
+    @JoinColumn(name = "user_")
     private User owner;
     private String name;
+    @ManyToOne
+    @JoinColumn(name = "location_")
     private Location location;
     private Integer maxMembers;
     private List<User> members;
     private String description;
-    private EventType eventType;
+    private String eventType;
 }
