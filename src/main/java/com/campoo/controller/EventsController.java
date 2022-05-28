@@ -5,6 +5,8 @@ import com.campoo.model.Event;
 import com.campoo.model.EventRepository;
 
 
+import com.campoo.model.User;
+import com.campoo.model.UserRepository;
 import com.campoo.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -20,6 +22,7 @@ public class EventsController {
     @Autowired
     private EventService eventService;
     private EventRepository eventRepo;
+    private UserRepository userRepo;
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String getFirstInfo() {
@@ -34,5 +37,10 @@ public class EventsController {
     @RequestMapping(value="/all", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody List<Event> getAllEvents() {
         return eventRepo.findAll();
+    }
+    
+    @RequestMapping(value="/user/all", method = RequestMethod.GET, produces = "application/json")
+    public @ResponseBody List<User> getAllUsers() {
+        return userRepo.findAll();
     }
 }
