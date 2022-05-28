@@ -27,6 +27,7 @@ public class Event {
     @JoinColumn(name = "location_")
     private Location location;
     private Integer maxMembers;
+    @ManyToMany
     private List<User> members;
     private String description;
     private String eventType;
