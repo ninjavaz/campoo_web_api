@@ -1,0 +1,6 @@
+com\campoo\model\EventRepository.class
+com\campoo\controller\EventsController.class
+com\campoo\model\Event.class
+com\campoo\model\Event$EventBuilder.class
+com\campoo\service\EventService.class
+com\campoo\EventsApplication.class
