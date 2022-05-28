@@ -15,8 +15,8 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="user")
-@Entity(name="user")
+@Table(name="user_own")
+@Entity(name="user_own")
 public class User {
     @Id
     @GeneratedValue
