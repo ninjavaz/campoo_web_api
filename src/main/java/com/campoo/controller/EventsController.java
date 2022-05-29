@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @RestController
@@ -32,7 +33,8 @@ public class EventsController {
     }
 
     @RequestMapping(value="/{id}", method = RequestMethod.GET, produces = "application/json")
-    public @ResponseBody Event getEventById(@PathVariable("id") Long id) {
+    public @ResponseBody
+    Optional<Event> getEventById(@PathVariable("id") Long id) {
         return eventService.getEvent(id);
     }
 

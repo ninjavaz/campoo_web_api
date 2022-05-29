@@ -20,11 +20,11 @@ public class Event {
     @GeneratedValue
     private Long id;
     @ManyToOne
-    @JoinColumn(name = "owner_")
+    @JoinColumn(name = "owner_id")
     private User owner;
     private String name;
     @ManyToOne
-    @JoinColumn(name = "location_")
+    @JoinColumn(name = "location_name")
     private Location location;
     private Integer maxMembers;
     @ManyToMany
