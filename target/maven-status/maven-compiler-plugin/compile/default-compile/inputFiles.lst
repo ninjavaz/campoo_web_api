@@ -3,8 +3,12 @@ D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtAuthenticationCon
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtAuthenticationEntryPoint.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtResponse.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\Event.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\service\UserService.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\controller\EventsController.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\EventType.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\SecurityConfig.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\service\LocationService.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\controller\LocationController.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\Location.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\EventRepository.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtRequestFilter.java
@@ -14,5 +18,5 @@ D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\UserRepository.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtTokenUtil.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\model\User.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\EventsApplication.java
-D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\WebSecurityConfig.java
+D:\Desktop\campoo_web_api\src\main\java\com\campoo\controller\UserController.java
 D:\Desktop\campoo_web_api\src\main\java\com\campoo\security\JwtRequest.java
