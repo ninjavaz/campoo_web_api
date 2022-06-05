@@ -1,7 +1,7 @@
 package com.campoo.controller;
 
 import com.campoo.model.*;
-import com.campoo.service.EventService;
+
 import com.campoo.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

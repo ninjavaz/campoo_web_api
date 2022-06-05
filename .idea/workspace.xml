@@ -5,39 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6d5d23-c2d2-4c57-9081-15d5341ea889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtAuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/JwtUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/EventsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/EventsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/controller/EventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/EventsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/model/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/EventsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/EventsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/controller/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/LocationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/controller/EventsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/Event$EventBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Event$EventBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/service/EventService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/events-1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/events-1.0.4.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/events-1.0.4.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/events-1.0.4.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
