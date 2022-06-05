@@ -11,7 +11,6 @@ import com.campoo.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -32,25 +31,13 @@ public class EventsController {
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String getFirstInfo() {
-        return "hello";
+        return "Projekt na przedmiot PROO2022. Autor: Dominik Nuszkiewicz E-mail:dknuszkiewicz@gmail.com";
     }
-
-//    @RequestMapping(value="/{id}", method = RequestMethod.GET, produces = "application/json")
-//    public @ResponseBody
-//    Optional<Event> getEventById(@PathVariable("id") Long id) {
-//        Optional<Event> result = eventService.getEvent(id);
-//        if(result.isPresent()) {
-//            return result;
-//        } else {
-//            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Event with id: "+id.toString() + "does not exist.");
-//        }
-//
-//    }
 
     @RequestMapping(value="/{id}", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody
     Optional<Event> getEventById(@PathVariable("id") Long id) {
-        return eventService.getEvent(id);
+        return eventService.getEventById(id);
 
     }
 
@@ -59,14 +46,11 @@ public class EventsController {
         return eventRepo.findAll();
     }
 
-    @RequestMapping(value="/user/all", method = RequestMethod.GET, produces = "application/json")
-    public @ResponseBody List<User> getAllUsers() {
-        return userRepo.findAll();
-    }
+
 
     @RequestMapping(value="/add", method=RequestMethod.POST, consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
     public Event addEvent(@RequestBody Event event) {
-        return eventService.addEvent(event);
+            return eventService.addEvent(event);
     }
 }

@@ -1,11 +1,10 @@
 package com.campoo.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import java.util.Date;
 import java.util.List;
 
 
@@ -17,11 +16,12 @@ import java.util.List;
 @Entity(name="event")
 public class Event {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @ManyToOne
     @JoinColumn(name = "owner_id")
     private User owner;
+    @NotBlank(message="Name of event is required")
     private String name;
     @ManyToOne
     @JoinColumn(name = "location_name")
@@ -29,6 +29,9 @@ public class Event {
     private Integer maxMembers;
     @ManyToMany
     private List<User> members;
+    @NotBlank(message="Description of event is required")
     private String description;
+    @NotBlank(message="Type of event is required")
     private String eventType;
+    private Date dateTime;
 }

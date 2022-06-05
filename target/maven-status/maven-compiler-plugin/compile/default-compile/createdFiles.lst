@@ -1,3 +1,5 @@
+com\campoo\security\JwtUserDetailsService.class
+com\campoo\security\JwtTokenUtil.class
 com\campoo\controller\EventsController.class
 com\campoo\model\UserRepository.class
 com\campoo\model\Event.class
@@ -5,9 +7,15 @@ com\campoo\model\User.class
 com\campoo\model\Event$EventBuilder.class
 com\campoo\EventsApplication.class
 com\campoo\model\EventType.class
+com\campoo\security\JwtAuthenticationController.class
 com\campoo\model\EventRepository.class
+com\campoo\security\JwtRequest.class
+com\campoo\security\JwtAuthenticationEntryPoint.class
+com\campoo\security\JwtResponse.class
 com\campoo\model\LocationRepository.class
 com\campoo\model\User$UserBuilder.class
 com\campoo\model\Location$LocationBuilder.class
 com\campoo\model\Location.class
+com\campoo\security\SecurityConfig.class
+com\campoo\security\JwtRequestFilter.class
 com\campoo\service\EventService.class
