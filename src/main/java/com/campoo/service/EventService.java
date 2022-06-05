@@ -16,4 +16,8 @@ public class EventService {
     public Optional<Event> getEvent(Long id){
         return eventRepository.findById(id);
     }
+
+    public Event addEvent(Event event) {
+        return eventRepository.save(event);
+    }
 }

@@ -5,62 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6d5d23-c2d2-4c57-9081-15d5341ea889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/EventsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/EventsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/model/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/EventsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/controller/EventsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Event$EventBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Event.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/EventRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/EventType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Location$LocationBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/LocationRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/User$UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/campoo/service/EventService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.1.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.3.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/events-1.0.4.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/EventsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/EventsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/controller/EventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/controller/EventsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campoo/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campoo/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/EventsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/EventsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/controller/EventsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/model/EventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/model/EventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/campoo/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/campoo/service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.1.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.3.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/events-1.0.4.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,6 +79,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -119,5 +96,16 @@
       <updated>1653722529385</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
